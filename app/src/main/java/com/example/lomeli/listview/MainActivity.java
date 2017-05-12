@@ -145,7 +145,8 @@ public class MainActivity extends AppCompatActivity {
             String[] elementoMenu = getResources().getStringArray(R.array.elementoMenuContextual);
             for (int i = 0; i < elementoMenu.length; i++) {
                 menu.add(Menu.NONE, i, i, elementoMenu[i]);
-                System.out.println("holi");
+
+
 
 
 
