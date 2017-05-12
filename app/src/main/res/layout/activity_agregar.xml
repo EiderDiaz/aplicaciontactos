@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lomeli.listview.MainAgregar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="80px"
+        android:id="@+id/tvTitloActivdad2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="50px"
+        android:layout_below="@+id/tvTitloActivdad2"
+        android:textStyle="bold"
+        android:id="@+id/tvAgregarContacto"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAgregarContacto"
+        android:id="@+id/etNombreContacto"
+        android:hint="Ingrese Nombre"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Celular"
+        android:textSize="50px"
+        android:layout_below="@+id/etNombreContacto"
+        android:textStyle="bold"
+        android:id="@+id/tvCelularContacto"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCelularContacto"
+        android:id="@+id/etCelularContacto"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textSize="50px"
+        android:layout_below="@id/etCelularContacto"
+        android:textStyle="bold"
+        android:id="@+id/tvCorreoContacto"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCorreoContacto"
+        android:id="@+id/etCorreoContacto"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:id="@+id/botonAgregarContactos"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/agregar2"
+            android:layout_marginRight="30px"
+            android:layout_marginBottom="30px"
+         />
+
+    </RelativeLayout>
+
+
+
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:id="@+id/botonRegresar"
+        android:paddingBottom="40px"
+        android:paddingTop="40px"
+        android:textColor="#FFFF"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"/>-->
+
+</RelativeLayout>
